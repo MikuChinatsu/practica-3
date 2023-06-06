@@ -1,0 +1,32 @@
+<supermercado>
+  <nombre>Supermercado C</nombre>
+  <direccion>Calle Secundaria 789</direccion>
+  <geolocalizacion>
+    <latitud>42.123456</latitud>
+    <longitud>-1.987654</longitud>
+  </geolocalizacion>
+  <productos>
+    <producto>
+      <nombre>Yogur</nombre>
+      <oferta>true</oferta>
+      <periodoVigencia>
+        <inicio>2023-06-10</inicio>
+        <fin>2023-06-20</fin>
+      </periodoVigencia>
+      <habitual>false</habitual>
+      <unidades>4</unidades>
+      <unidadMedida>unidad</unidadMedida>
+      <precio>0.75</precio>
+      <adquirido>false</adquirido>
+    </producto>
+    <producto>
+      <nombre>Chocolate</nombre>
+      <oferta>false</oferta>
+      <habitual>true</habitual>
+      <unidades>2</unidades>
+      <unidadMedida>tableta</unidadMedida>
+      <precio>1.99</precio>
+      <adquirido>false</adquirido>
+    </producto>
+  </productos>
+</supermercado>

@@ -1,0 +1,68 @@
+{
+  "supermercados": [
+    {
+      "nombre": "Supermercado A",
+      "direccion": "Calle Principal 123",
+      "geolocalizacion": {
+        "latitud": 40.123456,
+        "longitud": -3.987654
+      },
+      "productos": [
+        {
+          "nombre": "Leche",
+          "oferta": true,
+          "periodoVigencia": {
+            "inicio": "2023-06-01",
+            "fin": "2023-06-15"
+          },
+          "habitual": false,
+          "unidades": 1,
+          "unidadMedida": "litro",
+          "precio": 1.50,
+          "adquirido": false
+        },
+        {
+          "nombre": "Arroz",
+          "oferta": false,
+          "habitual": true,
+          "unidades": 2,
+          "unidadMedida": "kilogramo",
+          "precio": 2.99,
+          "adquirido": true
+        }
+      ]
+    },
+    {
+      "nombre": "Supermercado B",
+      "direccion": "Avenida Secundaria 456",
+      "geolocalizacion": {
+        "latitud": 41.987654,
+        "longitud": -2.123456
+      },
+      "productos": [
+        {
+          "nombre": "Manzanas",
+          "oferta": true,
+          "periodoVigencia": {
+            "inicio": "2023-06-05",
+            "fin": "2023-06-10"
+          },
+          "habitual": false,
+          "unidades": 3,
+          "unidadMedida": "unidad",
+          "precio": 0.50,
+          "adquirido": false
+        },
+        {
+          "nombre": "Pan",
+          "oferta": false,
+          "habitual": true,
+          "unidades": 1,
+          "unidadMedida": "unidad",
+          "precio": 0.99,
+          "adquirido": false
+        }
+      ]
+    }
+  ]
+}
